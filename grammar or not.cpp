@@ -28,6 +28,7 @@ bool isValidSentence(const char *sentence) {
             } else {
                 foundObject = true;
             }
+            
         }
         if (isSpace(sentence[i])) {
             foundSpace = true;
