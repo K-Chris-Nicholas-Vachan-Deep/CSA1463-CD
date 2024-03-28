@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main() {
+int main() 
+{
     char input[1000];
     int charCount = 0, wordCount = 0, lineCount = 0;
     char prevChar = '\0';
