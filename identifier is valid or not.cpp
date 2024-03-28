@@ -11,7 +11,6 @@ bool isValidIdentifier(const char *identifier) {
     }
     return true;
 }
-
 int main() {
     char identifier[50];
     printf("Enter an identifier: ");
